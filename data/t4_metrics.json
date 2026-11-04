@@ -1,0 +1,490 @@
+{
+  "Q1": {
+    "total_with_coping": 428,
+    "coping_counts": {
+      "buy_secondhand_refurbished": 111,
+      "switch_to_aggressive_value_brand": 93,
+      "buy_ex_flagship_older_gen": 54,
+      "optimize_software_custom_rom_linux": 48,
+      "upgrade_existing_ram_ssd_battery": 38,
+      "buy_immediately_hedging_hike": 30,
+      "wait_for_price_normalization": 17,
+      "save_longer_increase_income": 14,
+      "rely_on_installment_paylater": 11,
+      "wait_for_promo_or_launchpad": 6,
+      "downgrade_product_line_tier": 4,
+      "downgrade_ram_storage_variant": 2
+    },
+    "coping_pct": {
+      "buy_secondhand_refurbished": 25.93,
+      "switch_to_aggressive_value_brand": 21.73,
+      "buy_ex_flagship_older_gen": 12.62,
+      "optimize_software_custom_rom_linux": 11.21,
+      "upgrade_existing_ram_ssd_battery": 8.88,
+      "buy_immediately_hedging_hike": 7.01,
+      "wait_for_price_normalization": 3.97,
+      "save_longer_increase_income": 3.27,
+      "rely_on_installment_paylater": 2.57,
+      "wait_for_promo_or_launchpad": 1.4,
+      "downgrade_product_line_tier": 0.93,
+      "downgrade_ram_storage_variant": 0.47
+    },
+    "family_counts": {
+      "1_Pivot_Secondhand_ExFlagship": 165,
+      "4_Switch_ValueBrand_or_Downgrade": 99,
+      "2_Extend_Upgrade_Old_Device": 86,
+      "5_Hedging_or_Installment": 41,
+      "3_Pure_Wait_Hold_Save": 37
+    },
+    "family_pct": {
+      "1_Pivot_Secondhand_ExFlagship": 38.55,
+      "4_Switch_ValueBrand_or_Downgrade": 23.13,
+      "2_Extend_Upgrade_Old_Device": 20.09,
+      "5_Hedging_or_Installment": 9.58,
+      "3_Pure_Wait_Hold_Save": 8.64
+    },
+    "temporal_chi2": 26.705,
+    "temporal_p": 0.000795,
+    "temporal_cramers_v": 0.177,
+    "internal_factor_chi2": 72.286,
+    "internal_factor_p": 0.0,
+    "internal_factor_cramers_v": 0.411,
+    "period_family_pct": {
+      "1_Pivot_Secondhand_ExFlagship": {
+        "P1_Awal_Krisis (Des25-Mar26)": 22.4,
+        "P2_Eskalasi (Apr26-Jul26)": 43.8,
+        "P3_Puncak_Rammageddon (Agu26-Nov26)": 46.8
+      },
+      "2_Extend_Upgrade_Old_Device": {
+        "P1_Awal_Krisis (Des25-Mar26)": 19.8,
+        "P2_Eskalasi (Apr26-Jul26)": 20.4,
+        "P3_Puncak_Rammageddon (Agu26-Nov26)": 19.5
+      },
+      "3_Pure_Wait_Hold_Save": {
+        "P1_Awal_Krisis (Des25-Mar26)": 8.6,
+        "P2_Eskalasi (Apr26-Jul26)": 7.7,
+        "P3_Puncak_Rammageddon (Agu26-Nov26)": 11.7
+      },
+      "4_Switch_ValueBrand_or_Downgrade": {
+        "P1_Awal_Krisis (Des25-Mar26)": 34.5,
+        "P2_Eskalasi (Apr26-Jul26)": 19.1,
+        "P3_Puncak_Rammageddon (Agu26-Nov26)": 18.2
+      },
+      "5_Hedging_or_Installment": {
+        "P1_Awal_Krisis (Des25-Mar26)": 14.7,
+        "P2_Eskalasi (Apr26-Jul26)": 8.9,
+        "P3_Puncak_Rammageddon (Agu26-Nov26)": 3.9
+      }
+    }
+  },
+  "Q2": {
+    "accelerated_count": 35,
+    "delayer_pivot_count": 408,
+    "accelerated_pct_of_decision_pool": 7.9,
+    "acc_pc_memory_gpu_pct": 11.4,
+    "del_pc_memory_gpu_pct": 12.7,
+    "pc_share_z": -0.225,
+    "pc_share_p": 0.822034,
+    "emotion_chi2": 319.521,
+    "emotion_p": 0.0,
+    "emotion_cramers_v": 0.849,
+    "acc_top_emotions": {
+      "relief_validation": 54.3,
+      "anxiety_fomo": 40.0,
+      "enthusiasm_joy": 2.9,
+      "resignation_sadness": 2.9
+    },
+    "del_top_emotions": {
+      "curiosity_neutral": 58.1,
+      "frustration_anger": 12.7,
+      "enthusiasm_joy": 8.6,
+      "resignation_sadness": 8.6
+    },
+    "acc_top_products": {
+      "smartphone_midrange": 51.4,
+      "general_gadget_ecosystem": 22.9,
+      "laptop_ultrabook_office_ai": 11.4,
+      "smartphone_entry_budget": 5.7,
+      "smartphone_flagship": 5.7
+    },
+    "del_top_products": {
+      "smartphone_midrange": 45.8,
+      "general_gadget_ecosystem": 20.1,
+      "smartphone_ios_iphone": 8.6,
+      "laptop_ultrabook_office_ai": 8.3,
+      "smartphone_flagship": 6.6
+    }
+  },
+  "Q3": {
+    "total_blaming": 626,
+    "blame_counts": {
+      "gadget_brands_greed_shrinkflation": 234,
+      "weak_rupiah_usd_exchange_rate": 74,
+      "gov_taxes_ppn_customs": 71,
+      "local_distributors_retail_markup": 55,
+      "global_geopolitics_tariffs_war": 38,
+      "gov_tkdn_imei_regulation": 36,
+      "ai_boom_datacenter_monopoly": 33,
+      "tech_influencers_overhyping": 30,
+      "memory_cartel_chip_foundries": 24,
+      "scalpers_hoarders": 18,
+      "gpu_cpu_duopoly_nvidia_intel_amd": 8,
+      "fomo_consumers_fanboys": 5
+    },
+    "blame_pct": {
+      "gadget_brands_greed_shrinkflation": 37.38,
+      "weak_rupiah_usd_exchange_rate": 11.82,
+      "gov_taxes_ppn_customs": 11.34,
+      "local_distributors_retail_markup": 8.79,
+      "global_geopolitics_tariffs_war": 6.07,
+      "gov_tkdn_imei_regulation": 5.75,
+      "ai_boom_datacenter_monopoly": 5.27,
+      "tech_influencers_overhyping": 4.79,
+      "memory_cartel_chip_foundries": 3.83,
+      "scalpers_hoarders": 2.88,
+      "gpu_cpu_duopoly_nvidia_intel_amd": 1.28,
+      "fomo_consumers_fanboys": 0.8
+    },
+    "blame_cluster_counts": {
+      "Midstream_Brand_Shrinkflation_Retail_Markup": 307,
+      "Macro_Currency_Gov_Tax_TKDN": 219,
+      "Upstream_AI_Chip_Memory_Monopoly": 65,
+      "Community_FOMO_Influencers": 35
+    },
+    "intent_chi2": 39.545,
+    "intent_p": 0.113976,
+    "intent_cramers_v": 0.145,
+    "boycott_pivot_chi2": 48.575,
+    "boycott_pivot_p": 0.0,
+    "boycott_pivot_cramers_v": 0.279,
+    "cluster_boycott_or_pivot_rate_pct": {
+      "Community_FOMO_Influencers": 5.7,
+      "Macro_Currency_Gov_Tax_TKDN": 1.8,
+      "Midstream_Brand_Shrinkflation_Retail_Markup": 19.9,
+      "Upstream_AI_Chip_Memory_Monopoly": 3.1
+    }
+  },
+  "Q4": {
+    "total_misconception": 178,
+    "misconception_counts": {
+      "storage_capacity_ignores_emmc_ufs": 73,
+      "brand_prestige_guarantees_quality": 26,
+      "virtual_ram_equals_physical_ram": 17,
+      "more_cores_mp_ghz_always_better": 16,
+      "gaming_spec_equates_daily_reliability": 14,
+      "vram_gb_ignores_bus_tgp_arch": 13,
+      "raw_ram_capacity_ignores_speed_type": 8,
+      "software_update_fixes_hardware_limit": 7,
+      "ai_marketing_label_fomo": 3,
+      "structural_hike_is_temporary_bluff": 1
+    },
+    "misconception_pct": {
+      "storage_capacity_ignores_emmc_ufs": 41.01,
+      "brand_prestige_guarantees_quality": 14.61,
+      "virtual_ram_equals_physical_ram": 9.55,
+      "more_cores_mp_ghz_always_better": 8.99,
+      "gaming_spec_equates_daily_reliability": 7.87,
+      "vram_gb_ignores_bus_tgp_arch": 7.3,
+      "raw_ram_capacity_ignores_speed_type": 4.49,
+      "software_update_fixes_hardware_limit": 3.93,
+      "ai_marketing_label_fomo": 1.69,
+      "structural_hike_is_temporary_bluff": 0.56
+    },
+    "outcome_breakdown": {
+      "General_Spec_Critique": 141,
+      "Vulnerable_or_Experiencing_Bottleneck": 20,
+      "Critical_Rejection_or_Peer_Warning": 17
+    },
+    "product_chi2": 388.12,
+    "product_p": 0.0,
+    "product_cramers_v": 0.522
+  },
+  "Q5": {
+    "total_tradeoff": 1923,
+    "tradeoff_counts": {
+      "prioritize_chipset_perf_over_camera_body": 591,
+      "prioritize_ram_storage_over_soc_camera": 535,
+      "prioritize_clean_os_long_update_over_spec": 353,
+      "prioritize_battery_charging_durability": 181,
+      "refuse_spec_compromise_prefer_not_buying": 67,
+      "prioritize_aftersales_warranty_over_raw_spec": 60,
+      "prioritize_vram_gpu_over_cpu_aesthetics": 47,
+      "prioritize_camera_display_over_gaming": 36,
+      "prioritize_connectivity_nfc_5g_ports": 31,
+      "prioritize_compact_lightweight_form_factor": 22
+    },
+    "tradeoff_pct": {
+      "prioritize_chipset_perf_over_camera_body": 30.73,
+      "prioritize_ram_storage_over_soc_camera": 27.82,
+      "prioritize_clean_os_long_update_over_spec": 18.36,
+      "prioritize_battery_charging_durability": 9.41,
+      "refuse_spec_compromise_prefer_not_buying": 3.48,
+      "prioritize_aftersales_warranty_over_raw_spec": 3.12,
+      "prioritize_vram_gpu_over_cpu_aesthetics": 2.44,
+      "prioritize_camera_display_over_gaming": 1.87,
+      "prioritize_connectivity_nfc_5g_ports": 1.61,
+      "prioritize_compact_lightweight_form_factor": 1.14
+    },
+    "product_chi2": 1518.777,
+    "product_p": 0.0,
+    "product_cramers_v": 0.296
+  },
+  "Q6": {
+    "stated_reasons_total": 6239,
+    "stated_reasons_tier1": 2677,
+    "all_counts": {
+      "overall_unit_price_hike": 2631,
+      "chipset_soc_cpu_gpu_performance": 1302,
+      "ram_vram_capacity_or_shortage": 1231,
+      "software_os_bloatware_ads_bugs": 372,
+      "thermal_battery_build_durability": 140,
+      "storage_capacity_or_speed_type": 131,
+      "personal_income_savings_constraint": 113,
+      "urgent_device_broken_or_work_need": 110,
+      "currency_rupiah_depreciation": 85,
+      "tax_ppn_tkdn_imei_policy": 66,
+      "aftersales_warranty_stock_scarcity": 39,
+      "installment_credit_availability": 19
+    },
+    "all_pct": {
+      "overall_unit_price_hike": 42.17,
+      "chipset_soc_cpu_gpu_performance": 20.87,
+      "ram_vram_capacity_or_shortage": 19.73,
+      "software_os_bloatware_ads_bugs": 5.96,
+      "thermal_battery_build_durability": 2.24,
+      "storage_capacity_or_speed_type": 2.1,
+      "personal_income_savings_constraint": 1.81,
+      "urgent_device_broken_or_work_need": 1.76,
+      "currency_rupiah_depreciation": 1.36,
+      "tax_ppn_tkdn_imei_policy": 1.06,
+      "aftersales_warranty_stock_scarcity": 0.63,
+      "installment_credit_availability": 0.3
+    },
+    "tier1_counts": {
+      "ram_vram_capacity_or_shortage": 1231,
+      "overall_unit_price_hike": 876,
+      "chipset_soc_cpu_gpu_performance": 135,
+      "storage_capacity_or_speed_type": 120,
+      "software_os_bloatware_ads_bugs": 113,
+      "personal_income_savings_constraint": 61,
+      "currency_rupiah_depreciation": 43,
+      "urgent_device_broken_or_work_need": 41,
+      "thermal_battery_build_durability": 23,
+      "tax_ppn_tkdn_imei_policy": 18,
+      "aftersales_warranty_stock_scarcity": 11,
+      "installment_credit_availability": 5
+    },
+    "tier1_pct": {
+      "ram_vram_capacity_or_shortage": 45.98,
+      "overall_unit_price_hike": 32.72,
+      "chipset_soc_cpu_gpu_performance": 5.04,
+      "storage_capacity_or_speed_type": 4.48,
+      "software_os_bloatware_ads_bugs": 4.22,
+      "personal_income_savings_constraint": 2.28,
+      "currency_rupiah_depreciation": 1.61,
+      "urgent_device_broken_or_work_need": 1.53,
+      "thermal_battery_build_durability": 0.86,
+      "tax_ppn_tkdn_imei_policy": 0.67,
+      "aftersales_warranty_stock_scarcity": 0.41,
+      "installment_credit_availability": 0.19
+    },
+    "grouped_shares_all_pct": {
+      "overall_unit_price_hike": 42.17,
+      "ram_vram_and_storage": 21.83,
+      "personal_wallet_installment_urgent": 3.88,
+      "macro_fx_and_tax_tkdn": 2.42
+    },
+    "z_mem_vs_macro": 33.21,
+    "p_mem_vs_macro": 0.0
+  },
+  "Q7": {
+    "total_question_needs": 1001,
+    "kruskal_likes_stat": 6.819,
+    "kruskal_likes_p": 0.655957,
+    "topic_summary": {
+      "head_to_head_model_comparison": {
+        "comment_count": 292,
+        "share_pct": 29.17,
+        "mean_likes": 1.32,
+        "total_likes": 386,
+        "mean_replies": 0.83,
+        "seeking_advice_pct": 60.3
+      },
+      "long_term_usage_os_update_stability": {
+        "comment_count": 207,
+        "share_pct": 20.68,
+        "mean_likes": 1.37,
+        "total_likes": 283,
+        "mean_replies": 0.85,
+        "seeking_advice_pct": 16.4
+      },
+      "real_world_gaming_thermal_battery_test": {
+        "comment_count": 166,
+        "share_pct": 16.58,
+        "mean_likes": 1.02,
+        "total_likes": 170,
+        "mean_replies": 0.8,
+        "seeking_advice_pct": 9.0
+      },
+      "best_value_recommendation_by_budget": {
+        "comment_count": 117,
+        "share_pct": 11.69,
+        "mean_likes": 1.7,
+        "total_likes": 199,
+        "mean_replies": 0.91,
+        "seeking_advice_pct": 79.5
+      },
+      "secondhand_ex_flagship_buying_guide": {
+        "comment_count": 73,
+        "share_pct": 7.29,
+        "mean_likes": 1.47,
+        "total_likes": 107,
+        "mean_replies": 0.38,
+        "seeking_advice_pct": 56.2
+      },
+      "local_warranty_aftersales_claim_reality": {
+        "comment_count": 69,
+        "share_pct": 6.89,
+        "mean_likes": 1.64,
+        "total_likes": 113,
+        "mean_replies": 0.61,
+        "seeking_advice_pct": 7.2
+      },
+      "minimum_ram_vram_storage_for_longevity": {
+        "comment_count": 27,
+        "share_pct": 2.7,
+        "mean_likes": 3.04,
+        "total_likes": 82,
+        "mean_replies": 0.81,
+        "seeking_advice_pct": 22.2
+      },
+      "pc_build_or_laptop_ram_upgrade_guide": {
+        "comment_count": 24,
+        "share_pct": 2.4,
+        "mean_likes": 0.5,
+        "total_likes": 12,
+        "mean_replies": 0.25,
+        "seeking_advice_pct": 41.7
+      },
+      "import_tax_tkdn_global_rom_workaround": {
+        "comment_count": 19,
+        "share_pct": 1.9,
+        "mean_likes": 1.47,
+        "total_likes": 28,
+        "mean_replies": 0.63,
+        "seeking_advice_pct": 15.8
+      },
+      "when_ram_gadget_prices_normalize": {
+        "comment_count": 7,
+        "share_pct": 0.7,
+        "mean_likes": 2.43,
+        "total_likes": 17,
+        "mean_replies": 0.43,
+        "seeking_advice_pct": 0.0
+      }
+    }
+  },
+  "ML_Personas": {
+    "clustered_pool_size": 4405,
+    "silhouette_scores_by_k": {
+      "3": 0.1464,
+      "4": 0.1704,
+      "5": 0.2088,
+      "6": 0.2225
+    },
+    "optimal_k": 6,
+    "pca_explained_variance_pct": 29.32,
+    "clusters": {
+      "0": {
+        "count": 1197,
+        "share_pct": 27.2,
+        "top_intent": "already_owned_sharing",
+        "top_emotion": "enthusiasm_joy",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "buy_secondhand_refurbished",
+        "top_peer_advice": "share_firsthand_ownership_review",
+        "question_rate_pct": 23.5,
+        "sarcasm_rate_pct": 0.0,
+        "memory_signal_pct": 0.0,
+        "internal_factor_pct": 0.0,
+        "external_factor_pct": 0.1
+      },
+      "1": {
+        "count": 492,
+        "share_pct": 11.2,
+        "top_intent": "undecided_seeking_advice",
+        "top_emotion": "frustration_anger",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "buy_secondhand_refurbished",
+        "top_peer_advice": "ask_community_or_creator_advice",
+        "question_rate_pct": 21.7,
+        "sarcasm_rate_pct": 0.0,
+        "memory_signal_pct": 15.9,
+        "internal_factor_pct": 5.1,
+        "external_factor_pct": 52.4
+      },
+      "2": {
+        "count": 609,
+        "share_pct": 13.8,
+        "top_intent": "undecided_seeking_advice",
+        "top_emotion": "enthusiasm_joy",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "rely_on_installment_paylater",
+        "top_peer_advice": "ask_community_or_creator_advice",
+        "question_rate_pct": 33.7,
+        "sarcasm_rate_pct": 0.0,
+        "memory_signal_pct": 9.9,
+        "internal_factor_pct": 100.0,
+        "external_factor_pct": 0.3
+      },
+      "3": {
+        "count": 174,
+        "share_pct": 4.0,
+        "top_intent": "undecided_seeking_advice",
+        "top_emotion": "mockery_schadenfreude",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "buy_secondhand_refurbished",
+        "top_peer_advice": "ask_community_or_creator_advice",
+        "question_rate_pct": 20.7,
+        "sarcasm_rate_pct": 100.0,
+        "memory_signal_pct": 31.0,
+        "internal_factor_pct": 12.6,
+        "external_factor_pct": 10.9
+      },
+      "4": {
+        "count": 1280,
+        "share_pct": 29.1,
+        "top_intent": "undecided_seeking_advice",
+        "top_emotion": "confusion_dilemma",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "switch_to_aggressive_value_brand",
+        "top_peer_advice": "ask_community_or_creator_advice",
+        "question_rate_pct": 56.2,
+        "sarcasm_rate_pct": 0.0,
+        "memory_signal_pct": 1.2,
+        "internal_factor_pct": 1.7,
+        "external_factor_pct": 0.1
+      },
+      "5": {
+        "count": 653,
+        "share_pct": 14.8,
+        "top_intent": "undecided_seeking_advice",
+        "top_emotion": "enthusiasm_joy",
+        "top_product": "smartphone_midrange",
+        "top_blame": "gadget_brands_greed_shrinkflation",
+        "top_coping": "buy_secondhand_refurbished",
+        "top_peer_advice": "ask_community_or_creator_advice",
+        "question_rate_pct": 16.2,
+        "sarcasm_rate_pct": 0.0,
+        "memory_signal_pct": 100.0,
+        "internal_factor_pct": 1.7,
+        "external_factor_pct": 0.0
+      }
+    }
+  }
+}
